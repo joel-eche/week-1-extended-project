@@ -1,101 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Blog</title>
+    <title>Codeable Blog</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/blog.css">
 </head>
-<style>
-    header {
-        background: #929ECC;
-        color: #fff;
-    }
-
-    header nav {
-        float: right;
-    }
-
-    header ul {
-        list-style-type: none;
-    }
-
-    header li {
-        display: inline-block;
-    }
-
-    header a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .container {
-        max-width: 770px;
-        margin: 0 auto;
-    }
-
-    .blog-post {
-        color: #666666;
-        margin-bottom: 35px;
-    }
-
-    .blog-post h2 {
-        color: #4A90E2;
-        font-size: 14px;
-    }
-
-    .blog-post h3 {
-        color: #171717;
-        font-size: 30px;
-    }
-
-    .blog-post .tags {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .blog-post .tags li {
-        display: inline-block;
-    }
-
-    .blog-post .tags li::after {
-        content: '\25C6';
-        font-size: 8px;
-        padding: 0 12px;
-    }
-
-    .blog-post .tags li:last-child::after {
-        content: '';
-    }
-
-    .blog-post p {
-        line-height: 1.5;
-        margin-bottom: 24px;
-    }
-    .blog-post p+a{
-        display: inline-block;
-        text-decoration: none;
-        font-weight: 500;
-        color: inherit;
-        border: 1px solid #e5e5e5;
-        line-height: 0.94;
-        padding: 18px 40px;
-    }
-</style>
-
 <body>
     <header>
-        <b>Codeable News</b>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Pricing</a></li>
-                <li><a href="/">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <b>Codeable News</b>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="container">
         <article class="blog-post">
