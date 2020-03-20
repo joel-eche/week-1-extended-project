@@ -103,6 +103,7 @@ body {
 .plans ul {
   margin-top: 40px;
   text-align: left;
+  margin-bottom: 90px;
 }
 .plans li {
   list-style: none;
