@@ -18,3 +18,37 @@ body {
   width: 1439px;
   height: 1584px;
 }
+
+/*** Navbar ***/
+nav {
+  background: #929ecc;
+  color: #fff;
+  height: 56px;
+  padding: 15px;
+}
+
+nav span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 125px;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  margin-right: 134px;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 60px;
+  text-decoration: none;
+}
