@@ -1,0 +1,94 @@
+  * {
+    box-sizing: border-box;
+    font-family: "Roboto";
+  }
+  .intro {
+    padding: 2.5%;
+  }
+  .intro-left {
+    width: 50%;
+    float: left;
+  }
+  .intro-right {
+    width: 50%;
+    float: right;
+    text-align: center;
+  }
+  .intro h1 {
+      font-size: 60px;
+      line-height: 91px;
+      color: #091133;
+  }
+  .intro p {
+      font-size: 24px;
+      line-height: 45px;
+      color: #6F7CB2;
+  }
+  .intro button {
+      border: none;
+      font-size: 18px;
+      line-height: 32px;
+  }
+  .intro button:nth-of-type(1) {
+      background: #37447E;
+      color: white;
+      width:  270px;
+      height: 47px;
+      margin: 0 35px 0 0;
+  }
+  .intro button:nth-of-type(2) {
+      background: #E9EBEC;
+      font-size: 18px;
+      width:  200px;
+      height: 47px;
+  }
+  .plans {
+    clear: both;
+    text-align: center;
+    font-family: "Overpass";
+  }
+  .plans h1 {
+    font-size: 46px;
+  }
+  .plans h2 {
+    font-size: 36px;
+  }
+  .plans p {
+    font-size: 17px;
+    color: #666666;
+  }
+  .pricing ul {
+    margin: 10% 0;
+    padding: 5% 20%;
+    text-align: left;
+  }
+  .pricing ul li {
+    font-size: 20px;
+  }
+  .pricing {
+    padding: 0 20%;
+  }
+  .up-front {
+    float: left;
+  }
+  .isa {
+    float: right;
+  }
+  .pricing section {
+    padding: 3%;
+    width: 47.5%;
+    height: 667px;
+    background: #EBEBF0;
+    border-radius: 6px;
+    border: 1px solid #C9CCD4;
+  }
+  .pricing section button {
+    background: #929ECC;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 50% 0 0 0;
+    width: 80%;
+    height: 7.5%;
+    color: white;
+  }
