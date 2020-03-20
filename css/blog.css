@@ -10,11 +10,8 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  width: 1440px;
-  height: 1640px;
-  margin: 0px auto;
+  margin: 0;
 }
-
 header {
   position: sticky;
   top: 0;
@@ -22,35 +19,38 @@ header {
   height: 56px;
   background: #929ecc;
   color: #ffffff;
-  margin-right: 1px;
 }
-header .brand {
-  padding: 16px 135px;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+.brand {
+  padding: 16px 0;
   font-size: 20px;
   font-weight: bold;
   line-height: 23px;
   width: fit-content;
   float: left;
 }
-header .brand a {
+.brand a {
   color: #FFF;
   text-decoration: none;
 }
-header nav {
+.navbar {
   float: right;
-  margin-right: 134px;
 }
-header nav ul {
+.navbar ul {
   clear: both;
   list-style: none;
   margin: 20px 0px 19px 0px;
 }
-header nav ul li {
+.navbar li {
   list-style-type: none;
   display: inline;
 }
 
-header nav ul li a {
+.navbar a {
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
@@ -59,11 +59,12 @@ header nav ul li a {
 }
 
 /* BODY */
-
+main {
+  width: 80%;
+  margin: auto;
+}
 article {
-  margin: 35px auto;
-  width: 770px;
-  height: 742px;
+  margin: 50px auto;
 }
 .tag {
   color: #4a90e2;
@@ -71,48 +72,38 @@ article {
   font-size: 14px;
   line-height: 16px;
 }
-.subtitle {
+.title {
   margin: 11px auto;
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
 }
-.author {
-  display: block;
+.metadata {
   margin-bottom: 28px;
-}
-
-.author ul li:nth-child(1) {
-  list-style-type: none;
-}
-.author ul li {
-  display: inline;
   color: #666666;
   font-size: 14px;
   line-height: 16px;
   font-weight: normal;
 }
-.author ul li span {
-  margin: 0px 10px;
-  font-size: 20px;
-}
-.author ul li b {
-  color: black;
+.metadata i {
+  margin: 0 10px;
+  font-size: 5px;
+  vertical-align: middle;
 }
 article > p {
-  width: 700px;
   font-size: 16px;
   line-height: 24px;
   margin: 33px 0px 25px 0px;
   color: #666666;
 }
 article > .button {
-  display: block;
-  margin: 25px 0px 35px 0px;
+  display: inline-block;
   color: #666666;
   text-decoration: none;
   padding: 18px 40px 17px 42px;
-  width: 160px;
   height: 50px;
   border: 1px solid #e5e5e5;
+}
+article img {
+  width: 100%;
 }
