@@ -1,0 +1,91 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: auto;
+}
+nav {
+  position: sticky;
+  top: 0;
+  height: 56px;
+  background-color: #929ecc;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+}
+nav .right {
+  position: relative;
+  float: right;
+  height: 17px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 56px;
+  padding-right: 135px;
+}
+nav .left {
+  position: relative;
+  float: left;
+  height: 17px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 56px;
+  padding-left: 135px;
+}
+nav a {
+  padding: 30px;
+  cursor: pointer;
+}
+section {
+  width: 620px;
+  margin-top: 50px;
+  margin-top: 30px;
+}
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+main > p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+h3 {
+  color: #4a90e2;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+p span {
+  color: #000000;
+  cursor: pointer;
+}
+
+button {
+  border: 1px solid #e5e5e5;
+  width: 160px;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #666666;
+  cursor: pointer;
+}
+.fa-circle {
+  font-size: 8px;
+}
+.button-pricing {
+  text-decoration: none;
+  color: #ffffff;
+}
