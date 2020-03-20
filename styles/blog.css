@@ -42,8 +42,8 @@ header nav a {
 }
 
 main {
-  margin-left: 334px;
-  margin-right: 336px;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 30px;
   padding-top: 56px;
 }
@@ -81,7 +81,7 @@ main article p {
 
 main article img {
   display: block;
-  width: 770px;
+  width: 90%;
   text-align: center;
   margin-top: 28px;
   margin-left: auto;
