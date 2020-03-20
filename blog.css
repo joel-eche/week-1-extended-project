@@ -15,8 +15,8 @@
 body {
   background: #fff;
   font-family: "Roboto", sans-serif;
-  width: 1439px;
   height: 1640px;
+  width: 1439px;
 }
 
 /*** Navbar ***/
@@ -38,8 +38,8 @@ nav span {
 }
 
 ul {
-  list-style: none;
   float: right;
+  list-style: none;
   margin-right: 134px;
 }
 
@@ -65,8 +65,8 @@ main {
 }
 
 article {
-  width: 770px;
   margin: 35px auto 53px;
+  width: 770px;
 }
 
 article h2 {
