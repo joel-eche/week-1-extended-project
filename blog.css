@@ -1,0 +1,119 @@
+/*** Site Colors ***
+#929ECC
+#4A90E2
+#171717
+#666666
+#FFFFFF
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  height: 1640px;
+  width: 1439px;
+}
+
+/*** Navbar ***/
+nav {
+  background: #929ecc;
+  color: #fff;
+  height: 56px;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 1439px;
+  z-index: 1;
+}
+
+nav span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 125px;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  margin-right: 134px;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 60px;
+  text-decoration: none;
+}
+
+/*** Articles ***/
+main {
+  height: 1584px;
+  position: relative;
+  top: 56px;
+}
+
+article {
+  margin: 35px auto 53px;
+  width: 770px;
+}
+
+article h2 {
+  color: #4a90e2;
+  font-size: 14px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+}
+
+article h1 {
+  color: #171717;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+
+article h3 {
+  color: #666666;
+  font-size: 14px;
+}
+
+h3 span {
+  color: #171717;
+}
+
+article img {
+  margin: 28px auto 33px;
+}
+
+article p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 43px;
+}
+
+.btn {
+  border: 1px solid #e5e5e5;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 18px 41px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #666666;
+  border: 1px solid #666;
+  color: #fff;
+}
