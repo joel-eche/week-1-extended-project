@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.landing {
+  margin-top: 156.05px;
+}
+
+.landing .description {
+  width: 550px;
+  float: left;
+  margin-top: 51.95px;
+  margin-left: 135px;
+}
+
+.landing .container-image {
+  width: 600px;
+  float: right;
+}
+
+.landing .container-image img {
+  width: 100%;
+}
+
+.landing .description h1 {
+  font-size: 60px;
+  line-height: 91px;
+  font-weight: bold;
+  color: #091133;
+}
+
+.landing .description p {
+  color: #6f7cb2;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 45px;
+  padding: 50px 0;
+}
+
+.landing .description a {
+  font-size: 18px;
+  height: 47px;
+  display: inline-block;
+  text-align: center;
+  line-height: 47px;
+  margin: 50px 0;
+  text-decoration: none;
+}
+
+.landing .description .btn-pricing {
+  background-color: #37447e;
+  color: #fff;
+  width: 270px;
+  margin-right: 30px;
+}
+.landing .description .btn-blog {
+  background-color: #e9ebec;
+  color: #091133;
+  width: 200px;
+}
