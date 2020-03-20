@@ -25,6 +25,10 @@ nav {
   color: #fff;
   height: 56px;
   padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 1439px;
+  z-index: 1;
 }
 
 nav span {
@@ -56,6 +60,8 @@ ul li {
 /*** Articles ***/
 main {
   height: 1584px;
+  position: relative;
+  top: 56px;
 }
 
 article {
