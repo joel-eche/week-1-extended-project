@@ -16,6 +16,7 @@ nav {
   top: 0;
   background-color: #929ecc;
   height: 50px;
+  z-index: 99999;
 }
 
 .nav-left {
