@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    position: absolute;
+    margin: 110px;
+    margin-left: 165px;
+}
+
+.landingpagetop h1{
+    margin: 50px 0;
+    width: 660px;
+    font-size: 70px;
+    line-height: 95px;
+}
+
+.landingpagetop p{
+    color: #6F7CB2;
+    font-weight: 300;
+    font-size: 26px;
+    margin: 50px 0;
+    margin-bottom: 90px;
+    width: 543px;
+    line-height: 42px;
+}
+
+.landingpagetop a.b-left{
+    background: #37447E;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 131px;
+}
+
+.landingpagetop a.b-right{
+    background: #E9EBEC;;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 63px;
+    margin-left: 30px;
+}
+
+.landingpagetop img{
+    position: relative;
+    margin: 110px 920px;
+}
