@@ -34,7 +34,7 @@
 .card {
     background: #EBEBF0;
     display: inline-block;
-    width: 40%;
+    width: 38%;
     border: 1px solid #C9CCD4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -47,11 +47,17 @@
     margin-right: 0;
 }
 
-.card h3.card-title {
+.card-title {
+    display: block;
+    margin: 36px 36px 30px 36px;
+}
+
+.card h3.text-title {
     font-size: 36px !important;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     line-height: 48px !important;
-    margin: 36px 36px 30px 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .card span.card-subtitle {
@@ -62,10 +68,8 @@
 }
 
 .card ul {
-    margin-top: 36px;
+    margin: 36px auto 110px auto;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
 }
 
