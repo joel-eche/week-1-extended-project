@@ -20,9 +20,11 @@ section h3 {
     font-size: 30px;
     line-height: 35px;
 }
-.item-info{
+
+.item-info {
     display: inline-block;
 }
+
 .item-info p {
     font-style: normal;
     font-weight: normal;
@@ -31,6 +33,20 @@ section h3 {
     float: left;
 }
 
+.dot {
+
+}
+
 .item-img img {
     width: 100%;
+}
+
+.item-btn {
+    background: Transparent no-repeat;
+    border: 1px solid #E5E5E5 ;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 18px 40px 18px 40px;
+    box-sizing: border-box;
 }
