@@ -79,6 +79,12 @@ main article p {
   color: #666666;
 }
 
+main article svg {
+  vertical-align: middle;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
 main article img {
   display: block;
   width: 90%;
