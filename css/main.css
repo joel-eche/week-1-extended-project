@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Overpass|Roboto&display=swap");
-* {
+.landing > * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ body {
 
 /* pricing css */
 
-span {
+.plans span {
   font-size: 17px;
   color: #666666;
 }
@@ -76,11 +76,13 @@ span {
   font-size: 46px;
 }
 .container-plans{
-    display: flex;
+    
     align-items: center;
     justify-content: space-around;
 }
 .plans {
+  float: left;
+  margin-left: 200px;
   border: 1px solid #c9ccd4;
   border-radius: 10px;
   background: #ebebf0;
@@ -96,17 +98,17 @@ span {
   font-size: 36px;
   margin: 36px;
 }
-ul {
+.plans ul {
   margin-top: 40px;
   text-align: left;
 }
-li {
+.plans li {
   list-style: none;
   font-size: 25px;
   margin-right: 90px;
-  margin: 40px;
+  margin-bottom: 40px;
 }
-li:hover{
+.plans li:hover{
   color: #cccccc;
   cursor: pointer;
 }
