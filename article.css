@@ -39,14 +39,29 @@ article li {
     font-size: 14px;
     line-height: 16px;
     color: #666666;
+    font-weight: normal;
+    margin-right: 10px;
 }
 
-article li:nth-child(2), article li:nth-child(3) {
-    margin-left: 10px;
+.top li:nth-child(1) span{
+    font-weight: 400;
+    
+
 }
+
+.top li:nth-child(2) span {
+    padding-left: 0px;
+} 
+
+
+, .top li:nth-child(3) span {
+    padding-left: 10px;
+} 
 
 article li:nth-child(2):before, article li:nth-child(3):before {
-    content: &#9670 ;
+    content: "\25C6" ;
+    margin-right: 10px;
+    
 }
 
 article img {
@@ -65,7 +80,7 @@ article img {
     margin-bottom: 25px;
 }
 
-.text p:nth-child(2) {
+.text button {
     width: 160px;
     height: 50px;
     vertical-align: middle;
@@ -75,4 +90,5 @@ article img {
     line-height: 15px;
     color: #666666;
     border: 1px solid #E5E5E5;
+    background: none;
 }
