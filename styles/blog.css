@@ -11,6 +11,9 @@ body {
 header {
   height: 56px;
   background: #929ecc;
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
 header h1 {
@@ -42,6 +45,7 @@ main {
   margin-left: 334px;
   margin-right: 336px;
   margin-bottom: 30px;
+  padding-top: 56px;
 }
 
 main article {
