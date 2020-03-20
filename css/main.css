@@ -10,6 +10,8 @@ body {
 }
 .landing {
   margin-top: 156.05px;
+  margin-bottom: 81px;
+  overflow: auto;
 }
 .landing .description {
   width: 550px;
@@ -75,16 +77,15 @@ body {
 }
 #pricing h1 {
   font-size: 46px;
+  line-height: 1.39;
+  letter-spacing: -1.5px;
+  margin-bottom: 8px;
 }
 .container-plans{
-    
-    align-items: center;
-    justify-content: space-around;
+ text-align: center;   
 }
 .plans {
-  float: left;
-  margin-left: 300px;
-  margin-right: -280px;
+  display: inline-block;
   border: 1px solid #c9ccd4;
   border-radius: 10px;
   background: #ebebf0;
@@ -92,8 +93,7 @@ body {
   height: 667px;
   padding: 10px;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin: 40px 15px ;
 }
 
 .plans h2 {
