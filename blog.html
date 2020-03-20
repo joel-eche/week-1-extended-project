@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Codeable Blog</title>
+    <style>
+        main {
+            text-align: center;
+        }
+
+        .mini-title {
+            color: #4A90E2;
+        }
+    </style>
 </head>
 <body>
 <nav>
-    <div>Codeable News</div>
-    <ul>
-        <li>About</li>
-        <li>Pricing</li>
-        <li>Contact</li>
-    </ul>
+    <div class="nav-left">Codeable News</div>
+    <div class="nav-right">
+        <ul>
+            <li>About</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+        </ul>
+    </div>
 </nav>
 <main>
-    <div class="blog-item">
+    <section id="blog-item-1">
         <p class="mini-title">COMPUTER SCIENCE</p>
         <h3>How to increase the efficiency of your algorithms</h3>
         <div class="item-info">
@@ -33,9 +44,9 @@
             relates to the number of computational resources used by the algorithm. An algorithm must be analyzed to
             determine its resource usage, and the efficiency of an algorithm can be measured based ...</p>
         <button class="item-btn">Read more</button>
-    </div>
+    </section>
 
-    <div class="blog-item">
+    <section id="blog-item-2">
         <p class="mini-title">WEB DEVELOPMENT</p>
         <h3>HTML5 + CSS3 + Javascript = Web applications</h3>
         <div class="item-info">
@@ -53,7 +64,7 @@
             an application had its own pre-compiled client program which served as its user interface and had to
             be...</p>
         <button class="item-btn">Read more</button>
-    </div>
+    </section>
 </main>
 </body>
 </html>
