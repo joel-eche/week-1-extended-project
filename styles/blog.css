@@ -116,6 +116,7 @@ ul.item-info li {
   outline: none;
   padding: 18px 40px 18px 40px;
   box-sizing: border-box;
+  margin-top: 10px;
 }
 
 .item-description {
