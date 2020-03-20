@@ -32,6 +32,10 @@ header .brand {
   width: fit-content;
   float: left;
 }
+header .brand a {
+  color: #FFF;
+  text-decoration: none;
+}
 header nav {
   float: right;
   margin-right: 134px;
