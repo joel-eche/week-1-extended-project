@@ -41,6 +41,7 @@ header nav a {
 main {
   margin-left: 334px;
   margin-right: 336px;
+  margin-bottom: 30px;
 }
 
 main article {
@@ -51,6 +52,7 @@ main article h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  text-transform: uppercase;
 
   color: #4a90e2;
 }
@@ -91,8 +93,13 @@ main article img + p {
 }
 
 main article a {
-  clear: left;
+  display: inline-block;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 15px;
+  color: #666666;
+  padding: 18px 40px 17px 42px;
+  margin-top: 25px;
+  border: 1px solid #e5e5e5;
 }
