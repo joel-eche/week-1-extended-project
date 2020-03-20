@@ -87,7 +87,7 @@ body {
   border-radius: 10px;
   background: #ebebf0;
   width: 360px;
-  height: 667px;
+  height: auto;
   padding: 10px;
   text-align: center;
   margin-top: 70px;
