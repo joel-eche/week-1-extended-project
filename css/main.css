@@ -60,10 +60,7 @@ body {
 
 /* pricing css */
 
-.plans span {
-  font-size: 17px;
-  color: #666666;
-}
+
 
 
 #pricing {
@@ -71,6 +68,10 @@ body {
   font-family: "Overpass", sans-serif;
   clear: both;
 
+}
+#pricing span {
+  font-size: 17px;
+  color: #666666;
 }
 #pricing h1 {
   font-size: 46px;
