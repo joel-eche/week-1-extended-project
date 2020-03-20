@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  width: 1440px;
+  height: 1640px;
+  margin: 0px auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 56px;
+  background: #929ecc;
+  color: #ffffff;
+  margin-right: 1px;
+}
+header .brand {
+  padding: 16px 135px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+  width: fit-content;
+  float: left;
+}
+header nav {
+  float: right;
+  margin-right: 134px;
+}
+header nav ul {
+  clear: both;
+  list-style: none;
+  margin: 20px 0px 19px 0px;
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px 30px;
+}
+
+/* BODY */
+
+article {
+  margin: 35px auto;
+  width: 770px;
+  height: 742px;
+}
+.tag {
+  color: #4a90e2;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.subtitle {
+  margin: 11px auto;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+.author {
+  display: block;
+  margin-bottom: 28px;
+}
+
+.author ul li:nth-child(1) {
+  list-style-type: none;
+}
+.author ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+}
+.author ul li span {
+  margin: 0px 10px;
+  font-size: 20px;
+}
+.author ul li b {
+  color: black;
+}
+article > p {
+  width: 700px;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 33px 0px 25px 0px;
+  color: #666666;
+}
+article > .button {
+  display: block;
+  margin: 25px 0px 35px 0px;
+  color: #666666;
+  text-decoration: none;
+  padding: 18px 40px 17px 42px;
+  width: 160px;
+  height: 50px;
+  border: 1px solid #e5e5e5;
+}
