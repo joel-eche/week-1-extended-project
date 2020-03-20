@@ -73,6 +73,10 @@
     clear: left;
 }
 
+.title {
+    margin-bottom: 41px;
+}
+
 .title h2{
     font-weight: bold;
     font-size: 46px;
