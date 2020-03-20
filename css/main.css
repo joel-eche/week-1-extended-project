@@ -82,7 +82,8 @@ body {
 }
 .plans {
   float: left;
-  margin-left: 200px;
+  margin-left: 300px;
+  margin-right: -280px;
   border: 1px solid #c9ccd4;
   border-radius: 10px;
   background: #ebebf0;
@@ -105,12 +106,8 @@ body {
 .plans li {
   list-style: none;
   font-size: 25px;
-  margin-right: 90px;
+  margin-right: 80px;
   margin-bottom: 40px;
-}
-.plans li:hover{
-  color: #cccccc;
-  cursor: pointer;
 }
 #pricing .btn-pricing{
   font-size: 15px;
@@ -120,6 +117,7 @@ body {
   width: 288px;
   height: 60px;
   margin-right: -10px;
+  margin-bottom: 30px;
 }
 
 #pricing .btn-pricing:hover{
