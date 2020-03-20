@@ -9,12 +9,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .landing {
-  margin-top: 156.05px;
+  margin-top: 120px;
 }
 .landing .description {
   width: 550px;
   float: left;
-  margin-top: 51.95px;
+  margin-top: 30px;
   margin-left: 135px;
 }
 .landing .container-image {
@@ -29,13 +29,15 @@ body {
   line-height: 91px;
   font-weight: bold;
   color: #091133;
+  margin: 0;
 }
 .landing .description p {
   color: #6f7cb2;
   font-size: 24px;
   font-weight: normal;
   line-height: 45px;
-  padding: 50px 0;
+  padding: 40px 0;
+  margin: 0;
 }
 .landing .description a {
   font-size: 18px;
@@ -60,14 +62,10 @@ body {
 
 /* pricing css */
 
-
-
-
 #pricing {
   text-align: center;
   font-family: "Overpass", sans-serif;
   clear: both;
-
 }
 #pricing span {
   font-size: 17px;
@@ -75,11 +73,11 @@ body {
 }
 #pricing h1 {
   font-size: 46px;
+  padding-top: 100px;
 }
-.container-plans{
-    
-    align-items: center;
-    justify-content: space-around;
+.container-plans {
+  align-items: center;
+  justify-content: space-around;
 }
 .plans {
   float: left;
@@ -104,24 +102,27 @@ body {
   margin-top: 40px;
   text-align: left;
   margin-bottom: 90px;
+  padding-left: 100px;
 }
 .plans li {
-  list-style: none;
-  font-size: 25px;
-  margin-right: 80px;
+  font-size: 20px;
+  margin-right: 60px;
   margin-bottom: 40px;
 }
-#pricing .btn-pricing{
+#pricing .btn-pricing {
   font-size: 15px;
-  background-color:  #929ECC;
+  background-color: #929ecc;
+  border: 1px solid #000000;
   border-radius: 6px;
   color: #fff;
   width: 288px;
   height: 60px;
   margin-right: -10px;
   margin-bottom: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#pricing .btn-pricing:hover{
-  background-color:  rgb(50, 59, 97);
+#pricing .btn-pricing:hover {
+  background-color: rgb(50, 59, 97);
 }
