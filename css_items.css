@@ -1,36 +1,72 @@
-
 main {
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+  font-family: "Roboto", sans-serif;
 }
 
 .mini-title {
-    color: #4A90E2;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+  color: #4a90e2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 section h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 0;
 }
-.item-info{
-    display: inline-block;
+
+ul.item-info {
+  list-style: none;
+  padding: 0;
 }
+
+ul.item-info li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
 .item-info p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    float: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  float: left;
 }
 
 .item-img img {
-    width: 100%;
+  width: 100%;
+}
+
+.dot {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background: #666666;
+  transform: rotate(45deg);
+  vertical-align: middle;
+}
+
+.item-btn {
+  background: Transparent no-repeat;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 18px 40px 18px 40px;
+  box-sizing: border-box;
+}
+
+.item-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
 }
