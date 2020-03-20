@@ -61,6 +61,7 @@
 }
 
 .card span.card-subtitle {
+    font-family: 'Overpass', sans-serif;
     font-size: 17px;
     line-height: 31px;
     color: #666666;
