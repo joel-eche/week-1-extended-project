@@ -19,13 +19,13 @@
     margin-bottom: 8px;
 }
 
-#planes>span {
+#planes > span {
     font-size: 17px;
     line-height: 31px;
     color: #666666;
 }
 
-#planes>section {
+#planes > section {
     margin-top: 41px;
     margin: auto;
     width: 80%;
