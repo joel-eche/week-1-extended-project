@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+main {
+  position: relative;
+  width: 1440x;
+  height: 1000px;
+}
+section {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+}
+section section {
+  position: absolute;
+  width: 570px;
+  height: 609px;
+  left: 100px;
+  top: 0px;
+}
+article {
+  position: absolute;
+  width: 570px;
+  height: 462px;
+  left: 0px;
+  top: 0px;
+}
+h1 {
+  position: absolute;
+  height: 257px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  /* H1/Bold */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 91px;
+
+  /* Colour/Blue/900 */
+
+  color: #091133;
+}
+p {
+  position: absolute;
+  height: 155px;
+  left: 0px;
+  right: 70px;
+
+  margin-top: 400px;
+  /* H5/Regular */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 45px;
+
+  /* Colour/Blue/400 */
+
+  color: #6f7cb2;
+}
+div {
+  position: absolute;
+  width: 500px;
+  height: 47px;
+  left: 0px;
+  top: 650px;
+}
+a {
+  background: #37447e;
+}
+a:hover {
+  background: #e9ebec;
+}
+a:hover span {
+  color: #091133;
+}
+.a1 {
+  position: absolute;
+  left: 0%;
+  right: 46%;
+  top: 0%;
+  bottom: 0%;
+}
+.a2 {
+  position: absolute;
+  left: 60%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+span {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 20%;
+  bottom: 31.91%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+.imgland {
+  position: absolute;
+  width: 590px;
+  height: 690px;
+  left: 782.64px;
+  top: 20px;
+}
+#s2 {
+  position: absolute;
+  width: 751px;
+  height: 750px;
+  left: 345px;
+  top: 750px;
+}
