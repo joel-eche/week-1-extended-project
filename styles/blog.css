@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: "Roboto";
   margin: 0px;
 }
 
 body {
-  font-family: Roboto;
   font-style: normal;
 }
 
