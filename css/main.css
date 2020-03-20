@@ -1,43 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-
-.landing > * {
+@import url("https://fonts.googleapis.com/css?family=Overpass|Roboto&display=swap");
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   font-family: "Roboto", sans-serif;
 }
-
 .landing {
   margin-top: 156.05px;
 }
-
 .landing .description {
   width: 550px;
   float: left;
   margin-top: 51.95px;
   margin-left: 135px;
 }
-
 .landing .container-image {
   width: 600px;
   float: right;
 }
-
 .landing .container-image img {
   width: 100%;
 }
-
 .landing .description h1 {
   font-size: 60px;
   line-height: 91px;
   font-weight: bold;
   color: #091133;
 }
-
 .landing .description p {
   color: #6f7cb2;
   font-size: 24px;
@@ -45,7 +37,6 @@ body {
   line-height: 45px;
   padding: 50px 0;
 }
-
 .landing .description a {
   font-size: 18px;
   height: 47px;
@@ -55,7 +46,6 @@ body {
   margin: 50px 0;
   text-decoration: none;
 }
-
 .landing .description .btn-pricing {
   background-color: #37447e;
   color: #fff;
@@ -66,4 +56,70 @@ body {
   background-color: #e9ebec;
   color: #091133;
   width: 200px;
+}
+
+/* pricing css */
+
+span {
+  font-size: 17px;
+  color: #666666;
+}
+
+
+#pricing {
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  clear: both;
+
+}
+#pricing h1 {
+  font-size: 46px;
+}
+.container-plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.plans {
+  border: 1px solid #c9ccd4;
+  border-radius: 10px;
+  background: #ebebf0;
+  width: 360px;
+  height: 667px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.plans h2 {
+  font-size: 36px;
+  margin: 36px;
+}
+ul {
+  margin-top: 40px;
+  text-align: left;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+  margin-right: 90px;
+  margin: 40px;
+}
+li:hover{
+  color: #cccccc;
+  cursor: pointer;
+}
+#pricing .btn-pricing{
+  font-size: 15px;
+  background-color:  #929ECC;
+  border-radius: 6px;
+  color: #fff;
+  width: 288px;
+  height: 60px;
+  margin-right: -10px;
+}
+
+#pricing .btn-pricing:hover{
+  background-color:  rgb(50, 59, 97);
 }
