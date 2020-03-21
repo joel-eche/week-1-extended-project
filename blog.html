@@ -11,37 +11,41 @@
     <link href="blog.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
-      <p>Codeable News</p>
+    <header class="blog-header">
+      <h1>Codeable News</h1>
       <nav>
-        <span>About</span>
-        <span>Pricing</span>
-        <span>Contact</span>
+        <ul class="nav-links">
+          <li>About</li>
+          <li>Pricing</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
 
     <main>
       <article>
-        <p class="post-tag">COMPUTER SCIENCE</p>
+        <header>
+          <p class="post-tag">COMPUTER SCIENCE</p>
 
-        <h1 class="post-title">
+          <h1 class="post-title">
           How to increase the efficiency of your algorithms
-        </h1>
+         </h1>
 
-        <p class="subtitle">By <span> Marvin Carrasco</span></p>
+         <p class="author-name">By <span> Marvin Carrasco</span></p>
 
-        <ul class="subtitle">
-          <li>March 30, 2020</li>
-          <li>6 comments</li>
-        </ul>
+       
+         <span class="post-metadata">March 30, 2020</span>
+         <span class="post-metadata">6 comments</span>
 
+        </header>
+       
         <img
           class="post-img"
           src="assets/blog-algorithms.png"
           alt="representation of algorithms"
         />
 
-        <p class="description">
+        <p class="post-description">
           In computer science, algorithmic efficiency is a property of an
           algorithm which relates to the number of computational resources used
           by the algorithm. An algorithm must be analyzed to determine its
@@ -49,26 +53,27 @@
           based...
         </p>
 
-        <button class="post-btn">Read more</button>
+        <button class="post-btn"><a href="#">Read more</a></button>
       </article>
 
       <article>
-        <p class="post-tag">WEB DEVELOPMENT</p>
+        <header>
+          <p class="post-tag">WEB DEVELOPMENT</p>
 
-        <h1 class="post-title">
+         <h1 class="post-title">
           HTML5 + CSS3 + Javascript = Web applications
-        </h1>
+         </h1>
 
-        <p class="subtitle">By <span>Adonai Luque</span></p>
+         <p class="author-name">By <span>Adonai Luque</span></p>
 
-        <ul class="subtitle">
-          <li>March 28, 2020</li>
-          <li>10 comments</li>
-        </ul>
+          <span class="post-metadata">March 28, 2020</span>
+          <span class="post-metadata">10 comments</span>
+          
+        </header>
 
-        <img clas="post-img" src="assets/blog-web-app.png" />
+        <img clas="post-img" src="assets/blog-web-app.png" alt="Symbols of html, Javascript and css3" />
 
-        <p class="description">
+        <p class="post-description">
           In earlier computing models like client-server, the processing load
           for the application was shared between code on the server and code
           installed on each client locally. In other words, an application had
@@ -76,7 +81,7 @@
           and had to be...
         </p>
 
-        <button class="post-btn">Read more</button>
+        <button class="post-btn"><a href="#">Read more</a></button>
       </article>
     </main>
   </body>
