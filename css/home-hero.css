@@ -20,28 +20,28 @@ body {
   font-family: "Roboto";
 }
 
-.hero section:last-child {
+.hero-section:last-child {
   display: none;
 }
 
 @media (min-width: 960px) {
-  .hero section:first-child {
+  .hero-section:first-child {
     float: left;
     width: 55%;
   }
   
-  .hero section:last-child {
+  .hero-section:last-child {
     display: block;
     float: left;
     width: 45%;
   }
 }
 
-.hero img {
+.hero-cover {
   width: 100%;
 }
 
-.hero h1 {
+.hero-title {
   margin-bottom: 25px;
   color: #091133;
   font-size: 60px;
@@ -50,7 +50,7 @@ body {
   line-height: 75px;
 }
 
-.hero p {
+.hero-content {
   margin-bottom: 50px;
   color: #6F7CB2;
   font-size: 24px;
@@ -59,7 +59,7 @@ body {
   line-height: 45px;
 }
 
-.hero .button {
+.hero-button {
   display: inline-block;
   padding: 15px 40px;
   background-color: #E9EBEC;
@@ -69,11 +69,11 @@ body {
   text-decoration: none;
 }
 
-.hero .button:hover {
+.hero-button:hover {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-.hero .button:first-child {
+.hero-button:first-child {
   margin-right: 30px;
   padding: 15px 100px;
   background-color: #37447E;

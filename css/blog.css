@@ -3,16 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  position: relative;
+html {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  font-weight: normal;
   line-height: 16px;
+}
+body {
   margin: 0;
 }
-header {
+.page-header {
   position: sticky;
   top: 0;
   width: 100%;
@@ -59,10 +60,6 @@ header {
 }
 
 /* BODY */
-main {
-  width: 80%;
-  margin: auto;
-}
 article {
   margin: 50px auto;
 }

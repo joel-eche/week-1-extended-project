@@ -66,12 +66,12 @@
     clear: both;
 }
 
-.pricing-offer-header {
+.offer-header {
     margin-top: 36px;
 }
 
-.pricing-offer-title,
-.pricing-offer-price {
+.offer-title,
+.offer-price {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -81,7 +81,7 @@
     margin: 0px;
 }
 
-.pricing-offer-description {
+.offer-description {
     margin-top: 30px;
     font-weight: normal;
     font-size: 17px;
@@ -90,18 +90,18 @@
     color: #666666;
 }
 
-.pricing-offer-plan {
+.offer-plan {
     width: 222px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 0px;
 }
 
-.pricing-offer-plan ul{
+.offer-list {
     padding-left: 35px;
 }
 
-.pricing-offer-plan li {
+.offer-list li {
     margin-bottom: 15px;
     font-weight: 300;
     font-size: 20px;
@@ -109,7 +109,7 @@
     color: #000000;
 }
 
-.pricing-offer-footer {
+.offer-footer {
     width: 100%;
     padding-bottom: 38px;
     bottom: 0px;
@@ -117,9 +117,10 @@
     position: absolute;
 }
 
-.pricing-offer-footer .button{
+.offer-button{
     width: 288px;
     height: 60px;
+    font-family: "Overpass";
     font-weight: bold;
     font-size: 15px;
     line-height: 32px;
