@@ -45,7 +45,10 @@
 
 .landingpagetop img{
     position: relative;
-    margin: 76px 780px 0;
+    margin: 76px 780px 60px;
     margin-right: 0;
-
+}
+img{
+    width: 580px;
+    margin-bottom: 50px;
 }
