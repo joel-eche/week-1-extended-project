@@ -8,12 +8,13 @@
     position: absolute;
     margin: 110px;
     margin-left: 165px;
+    margin-top: 10px;
 }
 
 .landingpagetop h1{
     margin: 50px 0;
-    width: 660px;
-    font-size: 70px;
+    width: 50%;
+    font-size: 400%;
     line-height: 95px;
 }
 
@@ -44,5 +45,7 @@
 
 .landingpagetop img{
     position: relative;
-    margin: 110px 920px;
+    margin: 76px 780px 0;
+    margin-right: 0;
+
 }
