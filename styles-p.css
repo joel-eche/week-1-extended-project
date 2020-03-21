@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .content {
+    position: absolute;
+    margin: 110px;
+    margin-left: 165px;
+    margin-top: 10px;
+  }
+  
+  .landingpagetop h1 {
+    margin: 50px 0;
+    width: 50%;
+    font-size: 400%;
+    line-height: 95px;
+  }
+  
+  .landingpagetop p {
+    color: #6f7cb2;
+    font-weight: 300;
+    font-size: 26px;
+    margin: 50px 0;
+    margin-bottom: 90px;
+    width: 543px;
+    line-height: 42px;
+  }
+  
+  .landingpagetop a.b-left {
+    background: #37447e;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 131px;
+  }
+  
+  .landingpagetop a.b-right {
+    background: #e9ebec;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 63px;
+    margin-left: 30px;
+  }
+  
+  .landingpagetop img {
+    position: relative;
+    margin: 76px 780px 0;
+    margin-right: 0;
+  }
+  
+  .pricing-planes {
+    width: 751px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Overpass, sans-serif;
+    font-style: normal;
+  }
+  
+  .pricing-planes h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    letter-spacing: -1.5px;
+    color: #000000;
+  }
+  
+  .pricing-planes p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 31px;
+    color: #666666;
+    margin-bottom: 36px;
+  }
+  
+  .pricing-planes h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #000000;
+    margin-bottom: 36px;
+  }
+  
+  .pricing-planes ul {
+    width: 200px;
+    height: 226px;
+    margin: 0px 50px 110px 50px;
+  }
+  
+  .pricing-planes li {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    text-align: left;
+  }
+  
+  .pricing-planes button {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 32px;
+    align-items: center;
+    color: #ffffff;
+    background: #929ecc;
+    border: 1px solid #000000;
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 288px;
+    height: 60px;
+  }
+  
+  .plan {
+    background: #ebebf0;
+    border: 1px solid #c9ccd4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 360px;
+    height: 667;
+    padding: 36px;
+  }
+  
+  #plan1 {
+    position: absolute;
+    margin-right: 5px;
+  }
+  
+  #plan2 {
+    position: relative;
+    float: right;
+  }
+  
+  /* navigation bar */
+  nav {
+    width: 100%;
+    height: 56px;
+    color: #ffffff;
+    background-color: #929ecc;
+    position: fixed;
+    top: 0;
+  }
+  
+  .menu-bar {
+    margin: 0 135px;
+    line-height: 56px;
+  }
+  
+  .menu-bar > div {
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+  }
+  
+  .menu-bar ul {
+    font-size: 14px;
+    float: right;
+  }
+  
+  .menu-bar li {
+    list-style: none;
+    display: inline;
+    margin-right: 60px;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .blog {
+    width: 770px;
+    margin: 100px auto;
+  }
+  
+  .blog-article h2 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #4a90e2;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .blog-article article {
+    padding-left: 336px;
+    padding-top: 35px;
+  }
+  .blog-article h1 {
+    margin-top: 11px;
+    font-weight: bold;
+  }
+  .blog-article div {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .blog-article h3 {
+    font-size: 14px;
+    margin-top: 11px;
+    font-weight: 600;
+  }
+  .blog-article span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    font-weight: lighter;
+  }
+  .blog-article img {
+    width: 730px;
+    margin-top: 30px;
+    margin-bottom: 30.25px;
+  }
+  .firstImage{
+      margin-top: 20px;
+
+  }
+  .blog-article p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 404px;
+    width: 700px;
+  }
+  .blog-article button {
+    width: 160px;
+    height: 50px;
+    margin-bottom: 35opx;
+    border: 1px solid #e5e5e5;
+    color: #666666;
+    background-color: white;
+  }
+  .button1{
+      margin-bottom: 35px;
+  }
