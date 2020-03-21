@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.general_font {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#hero > div {
+  margin-top: 208px;
+  margin-left: 135px;
+  max-width: 570px;
+  float: left;
+}
+
+#hero > div > h1 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 91px;
+  color: #091133;
+  height: 257px;
+  margin-bottom: 50px;
+}
+
+#hero > div > p {
+  font-size: 24px;
+  line-height: 45px;
+  color: #6f7cb2;
+  width: 500px;
+  height: 155px;
+  margin-bottom: 100px;
+}
+
+.hero-btn {
+  font-size: 18px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  height: 47px;
+  border: 0px;
+}
+
+#pricing-btn {
+  background: #37447e;
+  width: 270px;
+  float: left;
+}
+
+#blog-btn {
+  background: #e9ebec;
+  width: 200px;
+  margin-left: 30px;
+  float: left;
+}
+
+#pricing-btn > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#blog-btn > a {
+  color: #091133;
+  text-decoration: none;
+}
+
+#hero > img {
+  margin-top: 156.05px;
+  margin-left: 77.64px;
+  float: left;
+}
