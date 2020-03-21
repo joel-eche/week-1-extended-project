@@ -118,8 +118,10 @@
 }
 
 .offer-button{
+    display: block;
     width: 288px;
-    height: 60px;
+    margin: auto;
+    padding: 13px;
     font-family: "Overpass";
     font-weight: bold;
     font-size: 15px;
@@ -130,4 +132,5 @@
     box-sizing: border-box;
     border-radius: 6px;
     color: #FFF;
+    text-decoration: none;
 }

@@ -60,40 +60,40 @@ body {
 }
 
 /* BODY */
-article {
+.post {
   margin: 50px auto;
 }
-.tag {
+.post-tag {
   color: #4a90e2;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
-.title {
+.post-title {
   margin: 11px auto;
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
 }
-.metadata {
+.post-metadata {
   margin-bottom: 28px;
   color: #666666;
   font-size: 14px;
   line-height: 16px;
   font-weight: normal;
 }
-.metadata i {
+.post-metadata i {
   margin: 0 10px;
   font-size: 5px;
   vertical-align: middle;
 }
-article > p {
+.post-content {
   font-size: 16px;
   line-height: 24px;
   margin: 33px 0px 25px 0px;
   color: #666666;
 }
-article > .button {
+.post-button {
   display: inline-block;
   color: #666666;
   text-decoration: none;
@@ -101,6 +101,6 @@ article > .button {
   height: 50px;
   border: 1px solid #e5e5e5;
 }
-article img {
+.post-cover {
   width: 100%;
 }
