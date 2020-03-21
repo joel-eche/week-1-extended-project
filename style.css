@@ -1,128 +1,150 @@
-html {
-  scroll-behavior: smooth;
-}
-main {
-  position: relative;
-  width: 1440x;
-  height: 1000px;
-}
-section {
-  position: absolute;
-  width: 1440px;
-  height: 1024px;
-  left: 0px;
-  top: 0px;
-}
-section section {
-  position: absolute;
-  width: 570px;
-  height: 609px;
-  left: 100px;
-  top: 0px;
-}
-article {
-  position: absolute;
-  width: 570px;
-  height: 462px;
-  left: 0px;
-  top: 0px;
-}
-h1 {
-  position: absolute;
-  height: 257px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-
-  /* H1/Bold */
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+* {
+  box-sizing: border-box;
+  }
+  
+  body {
+  height: 220vh;
+  padding: 80px 0;
+  }
+  
+  #main-title {
+  font-family: 'Roboto', sans-serif;
   font-size: 60px;
-  line-height: 91px;
-
-  /* Colour/Blue/900 */
-
-  color: #091133;
-}
-p {
-  position: absolute;
-  height: 155px;
-  left: 0px;
-  right: 70px;
-
-  margin-top: 400px;
-  /* H5/Regular */
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: bold;;
+  }
+  
+  article {
+  padding: 0 50px;
+  width: 50%;
+  float: left;
+  }
+  
+  img {
+  float: right;
+  }
+  
+  .description {
+  width: 80%;
+  }
+  
+  div > p:first-child {
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
+  color: #6F7CB2;
   line-height: 45px;
-
-  /* Colour/Blue/400 */
-
-  color: #6f7cb2;
-}
-div {
-  position: absolute;
-  width: 500px;
-  height: 47px;
-  left: 0px;
-  top: 650px;
-}
-a {
-  background: #37447e;
-}
-a:hover {
-  background: #e9ebec;
-}
-a:hover span {
-  color: #091133;
-}
-.a1 {
-  position: absolute;
-  left: 0%;
-  right: 46%;
-  top: 0%;
-  bottom: 0%;
-}
-.a2 {
-  position: absolute;
-  left: 60%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-}
-span {
-  position: absolute;
-  left: 40px;
-  right: 40px;
-  top: 20%;
-  bottom: 31.91%;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
-  align-items: center;
-  text-align: center;
-
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  a > span {
+  text-decoration: none;
+  padding: 15px 36px;
+  background-color:  #E9EBEC;;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  .highlight > span {
+  display: inline-block;
   color: white;
-}
-.imgland {
+  background-color:#37447E;;
+  margin-top: 60px;
+  margin-right: 30px;
+  }
+  
+  a:nth-child(1) > span {
+  padding: 15px 90px;
+  }
+  
+  a:nth-child(2) > span {
+  }
+  
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+  #s2 {
+  width: 800px;
+  margin: 80px auto;
+  }
+  
+  #s2 > div:first-child {
+  text-align: center;
+  }
+  
+  #Pricing {
+  font-weight: bold;
+  font-size: 43px;
+  color: #000000;
+
+
+  }
+  
+  .s2-title > span {
+  display: inline-block;
+  margin: 10px 0;
+  color:#666666;
+  }
+  
+  .block {
+  position: relative;
+  top: 40px;
+  background-color: gainsboro;
+  width: 46%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 60px;
+  height: 600px;
+  float: left;
+  margin: 0 2%;
+  border-radius: 5px;
+  }
+  
+  .block > span {
+  display: inline-block;
+  align-self: center;
+  }
+  
+  .plan {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px 0;
+  }
+  
+  .plan-message {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #666666;
+  }
+  
+  ul > li {
+  text-align: start;
+  font-size: 20px;
+  padding: 10px 0;
+  font-style: lighter;
+  font-weight: 100;
+  font-family:'Overpass', sans-serif;;
+  }
+  
+  .Btn {
+  padding: 20px;
+  width: 250px;
+  background-color:#929ECC;
   position: absolute;
-  width: 590px;
-  height: 690px;
-  left: 782.64px;
-  top: 20px;
-}
-#s2 {
-  position: absolute;
-  width: 751px;
-  height: 750px;
-  left: 345px;
-  top: 750px;
-}
+  bottom: 30px;
+  left:calc(50% - 250px /2);
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border: 1px solid #000000;
+
+  }
+  
