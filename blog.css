@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  
+  main {
+    margin: auto;
+    width: 770px;
+    padding-top: 100px;
+  }
+  
+  header {
+    background-color: #929ecc;
+    color: #ffffff;
+    width: 100%;
+    height: 56px;
+    margin-bottom: 35px;
+    padding-left: 135px;
+    padding-top: 16px;
+    padding-right: 134px;
+    position: fixed;
+  }
+  
+  header p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: inline;
+    margin-right: 1100px;
+  }
+  
+  nav {
+    display: inline;
+  }
+  
+  nav span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-right: 60px;
+  }
+  
+  .post-tag {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4a90e2;
+    margin-bottom: 11px;
+  }
+  
+  .post-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #171717;
+    margin-bottom: 11px;
+  }
+  
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+  }
+  
+  span {
+    color: #171717;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    display: inline;
+  }
+  
+  ul {
+    display: table;
+    list-style: none;
+  }
+  li::before {
+    content: "•";
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  li {
+    display: table-cell;
+    margin-right: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+  }
+  
+  .post-img {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 34px;
+  }
+  
+  .description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    width: 700px;
+    height: 72px;
+  }
+  
+  .post-btn {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    border: 1px solid #e5e5e5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #666666;
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+  }
+  
+  
+  
