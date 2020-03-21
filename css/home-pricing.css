@@ -1,15 +1,15 @@
 .pricing {
-    width: 811px;
+    padding-bottom: 30px;
     margin: 0px auto 30px;
     font-family: Overpass;
     font-style: normal;
 }
 
-.pricing .pricing-header{
+.pricing-header{
     text-align: center;
 }
 
-.pricing .pricing-header .pricing-header-title{
+.pricing-header-title{
     margin: 0px;
     font-weight: bold;
     font-size: 46px;
@@ -19,7 +19,7 @@
     color: #000000;
 }
 
-.pricing .pricing-header .pricing-header-subtitle{
+.pricing-header-subtitle {
     margin: 0px;
     font-weight: normal;
     font-size: 17px;
@@ -30,17 +30,17 @@
 
 .pricing-offers {
     margin-top: 41px;
+    overflow: auto;
 }
 
 .pricing-offer {
-    width: 360px;
+    width: 50%;
     height: 667px;
     background: #EBEBF0;
     border: 1px solid #C9CCD4;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
-    display: inline-block;
     position: relative;
 }
 
@@ -52,6 +52,16 @@
     float: right;
 }
 
+@media (min-width: 960px) {
+    .pricing {
+        width: 750px;
+        margin: auto;
+    }
+    .pricing-offer {
+        width: 360px;
+    }
+}
+
 .clear {
     clear: both;
 }
@@ -60,7 +70,8 @@
     margin-top: 36px;
 }
 
-.pricing-offer-header .pricing-offer-title, .pricing-offer-header .pricing-offer-price{
+.pricing-offer-title,
+.pricing-offer-price {
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -81,7 +92,6 @@
 
 .pricing-offer-plan {
     width: 222px;
-    height: 208px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 0px;
@@ -91,8 +101,8 @@
     padding-left: 35px;
 }
 
-
-.pricing-offer-plan ul li{
+.pricing-offer-plan li {
+    margin-bottom: 15px;
     font-weight: 300;
     font-size: 20px;
     line-height: 32px;
