@@ -11,14 +11,14 @@
   margin-top: 10px;
 }
 
-.landingpagetop h1 {
+.landing-title {
   margin: 50px 0;
   width: 50%;
   font-size: 400%;
   line-height: 95px;
 }
 
-.landingpagetop p {
+.landing-description {
   color: #6f7cb2;
   font-weight: 300;
   font-size: 26px;
@@ -28,14 +28,14 @@
   line-height: 42px;
 }
 
-.landingpagetop a.b-left {
+.landing-button-pricing {
   background: #37447e;
   color: #fff;
   text-decoration: none;
   padding: 15px 131px;
 }
 
-.landingpagetop a.b-right {
+.landing-button-blog {
   background: #e9ebec;
   color: #000;
   text-decoration: none;
@@ -43,7 +43,7 @@
   margin-left: 30px;
 }
 
-.landingpagetop img {
+.landing-image {
   position: relative;
   margin: 76px 780px 0;
   margin-right: 0;
@@ -57,7 +57,7 @@
   font-style: normal;
 }
 
-.pricing-planes h1 {
+.pricing-title {
   font-style: normal;
   font-weight: bold;
   font-size: 46px;
@@ -66,7 +66,7 @@
   color: #000000;
 }
 
-.pricing-planes p {
+.pricing-planes-subtitle {
   font-weight: normal;
   font-size: 17px;
   line-height: 31px;
@@ -74,7 +74,7 @@
   margin-bottom: 36px;
 }
 
-.pricing-planes h2 {
+.plan-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
@@ -83,13 +83,13 @@
   margin-bottom: 36px;
 }
 
-.pricing-planes ul {
+.plan-description {
   width: 200px;
   height: 226px;
   margin: 0px 50px 110px 50px;
 }
 
-.pricing-planes li {
+.plan-item {
   font-weight: 300;
   font-size: 20px;
   line-height: 32px;
@@ -97,7 +97,7 @@
   text-align: left;
 }
 
-.pricing-planes button {
+.plan-button {
   font-weight: bold;
   font-size: 15px;
   line-height: 32px;
@@ -110,6 +110,10 @@
   border-radius: 6px;
   width: 288px;
   height: 60px;
+
+  text-decoration: none;
+  padding: 18px 80px;
+  box-sizing: border-box;
 }
 
 .plan {
