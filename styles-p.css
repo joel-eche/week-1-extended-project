@@ -145,7 +145,7 @@
   top: 0;
 }
 
-.menu-bar > div {
+.menu-bar > h1 {
   font-weight: bold;
   font-size: 20px;
   float: left;
@@ -172,38 +172,38 @@
   margin: 100px auto;
 }
 
-.blog-article h2 {
+.post-topic {
   font-size: 14px;
   line-height: 16px;
   color: #4a90e2;
   font-weight: 500;
   text-transform: uppercase;
 }
-.blog-article {
+.post {
   padding-left: 336px;
   padding-top: 35px;
 }
-.blog-article h1 {
+.post-title {
   margin-top: 11px;
   font-weight: bold;
 }
-.blog-article div {
+.post div {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
 }
-.blog-article h3 {
+.post-info {
   font-size: 14px;
   margin-top: 11px;
   font-weight: 600;
 }
-.blog-article span {
+.post-info span {
   font-size: 14px;
   line-height: 16px;
   color: #666666;
   font-weight: lighter;
 }
-.blog-article img {
+.post img {
   width: 730px;
   margin-top: 30px;
   margin-bottom: 30.25px;
@@ -211,7 +211,7 @@
 .firstImage {
   margin-top: 20px;
 }
-.blog-article p {
+.post p {
   font-size: 16px;
   line-height: 24px;
   color: #666666;
@@ -220,13 +220,15 @@
   margin-right: 404px;
   width: 700px;
 }
-.blog-article button {
+.post-button {
   width: 160px;
   height: 50px;
   margin-bottom: 35opx;
   border: 1px solid #e5e5e5;
   color: #666666;
-  background-color: white;
+  text-decoration: none;
+  padding: 18px 40px;
+  box-sizing: border-box;
 }
 .button1 {
   margin-bottom: 35px;
