@@ -34,6 +34,10 @@ main {
   margin-right: 20px;
   width: 200px;
 }
+.header-elements {
+  width: 1170px;
+  margin: auto;
+}
 
 nav {
   float: right;
@@ -50,6 +54,10 @@ nav {
   line-height: 16px;
   color: #ffffff;
   margin-right: 60px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0px;
 }
 
 .post-tag {
