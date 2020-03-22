@@ -1,9 +1,9 @@
 /*** Site Colors ***
-#929ECC
-#4A90E2
-#171717
-#666666
-#FFFFFF
+Blue Bell: #929ECC
+Dim Gray: #666666
+Nero: #171717
+Royal Blue: #4A90E2
+White: #FFFFFF
 */
 
 * {
@@ -20,7 +20,7 @@ body {
 }
 
 /*** Navbar ***/
-nav {
+.nav-wrapper {
   background: #929ecc;
   color: #fff;
   height: 56px;
@@ -31,72 +31,80 @@ nav {
   z-index: 1;
 }
 
-nav span {
+.site-title {
   font-size: 20px;
   font-weight: bold;
   margin-left: 125px;
 }
 
-ul {
-  float: right;
+.nav-wrapper ul {
+  position: absolute;
   list-style: none;
-  margin-right: 134px;
+  right: 134px;
+  bottom: 10px;
 }
 
-ul li {
+.nav-wrapper li {
   display: inline-block;
   font-size: 14px;
+  margin-left: 60px;
 }
 
 .nav-link {
+  border: 1px solid #929ecc;
   color: #fff;
   display: block;
   font-size: 14px;
   line-height: 16px;
-  padding-left: 60px;
+  padding: 10px;
   text-decoration: none;
 }
 
-/*** Articles ***/
-main {
+.nav-link:hover {
+  border: 1px solid #fff;
+}
+
+/*** Posts ***/
+.post-wrapper {
   height: 1584px;
   position: relative;
   top: 56px;
 }
 
-article {
+.post {
   margin: 35px auto 53px;
   width: 770px;
 }
 
-article h2 {
+.post-category {
   color: #4a90e2;
   font-size: 14px;
   margin-bottom: 11px;
   text-transform: uppercase;
 }
 
-article h1 {
+.post-title {
   color: #171717;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 11px;
 }
 
-article h3 {
+.post-metadata {
   color: #666666;
   font-size: 14px;
 }
 
-h3 span {
+.post-author {
   color: #171717;
+  font-weight: bold;
 }
 
-article img {
+.post-img {
   margin: 28px auto 33px;
 }
 
-article p {
+.post-text {
   color: #666666;
   font-size: 16px;
   line-height: 24px;
