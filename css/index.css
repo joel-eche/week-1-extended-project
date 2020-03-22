@@ -2,11 +2,13 @@ body {
   text-align: center;
 }
 
-.landing-top {
+.landing {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   display: inline-block;
   width: 1440px;
   height: 1024px;
-  
 }
 
 .intro {
@@ -16,60 +18,42 @@ body {
   margin-left: 135px;
 
   width: 570px;
-  
+
   box-sizing: border-box;
 }
 
 .intro h1 {
-  
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 60px;
   line-height: 91px;
   color: #091133;
 }
 
-.intro h5 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.intro p {
   font-size: 24px;
   line-height: 45px;
-  color: #6F7CB2;
+  color: #6f7cb2;
 }
 
-.intro a:nth-child(3) {
-  display: inline-block;
-  width: 270px;
-  height: 47px;
-  
-  line-height: 47px;
-  text-decoration: none;
-  background-color: #37447e;
-  text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  align-items: center;
-  color: #FFFFFF;
-}
-
-.intro a:nth-child(4) {
+.intro a {
   display: inline-block;
   width: 200px;
   height: 47px;
-  margin-left: 30px;
   line-height: 47px;
   text-decoration: none;
-  background-color: #E9EBEC;
   text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   align-items: center;
+}
+
+.pricing-btn {
+  background-color: #37447e;
+  color: #ffffff;
+}
+
+.blog-btn {
+  margin-left: 30px;
+  background-color: #e9ebec;
   color: #091133;
 }
 
@@ -81,7 +65,6 @@ body {
 
 .landing-img img {
   width: 100%;
-  
 }
 
 .pricing {
@@ -137,7 +120,7 @@ body {
   letter-spacing: -1px;
 }
 
-.pricing-options h4 {
+.pricing-options h2 {
   font-size: 17px;
   line-height: 31px;
   color: #666666;
@@ -156,7 +139,7 @@ body {
   font-size: 20px;
 }
 
-button {
+.pricing-options button {
   color: #ffffff;
   margin-top: 100px;
   background: #929ecc;
