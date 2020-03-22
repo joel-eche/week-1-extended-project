@@ -69,13 +69,13 @@ body {
   margin-top: 156.05px;
 }
 
-section#pricing {
+#pricing {
   font-family: Overpass;
   text-align: center;
   height: 876px;
 }
 
-section#pricing h3 {
+#pricing h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 46px;
@@ -85,7 +85,7 @@ section#pricing h3 {
   letter-spacing: -1.5px;
 }
 
-section#pricing span {
+#pricing span {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -95,21 +95,21 @@ section#pricing span {
   color: #666666;
 }
 
-section#pricing span {
+#pricing span {
   margin-bottom: 41px;
 }
 
-section#pricing div span {
+#pricing div span {
   margin-bottom: 36px;
   margin-top: 30px;
 }
 
-section#pricing span:not(1) {
+#pricing span:not(1) {
   margin-bottom: 36px;
   margin-top: 30px;
 }
 
-section#pricing div {
+#pricing div {
   height: 595px;
   border: 1px solid #c9ccd4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -120,7 +120,7 @@ section#pricing div {
   font-size: 30px;
 }
 
-section#pricing div ul li {
+#pricing div ul li {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -131,7 +131,7 @@ section#pricing div ul li {
   padding-bottom: 10px;
 }
 
-section#pricing div button {
+#pricing div button {
   background: #929ecc;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -147,7 +147,7 @@ section#pricing div button {
   margin-top: initial;
 }
 
-section#pricing div button a {
+#pricing div button a {
   font-style: normal;
   font-size: 15px;
   line-height: 32px;
@@ -157,27 +157,27 @@ section#pricing div button a {
   text-decoration: none;
 }
 
-section#pricing ul li::content {
+#pricing ul li::content {
   width: 150px;
 }
 
-#left {
+#Up_front {
   float: left;
   margin-left: 346px;
 }
-#right {
+#ISA {
   float: right;
   margin-right: 344px;
 }
 
-section#pricing div h2 {
+#pricing div h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
 }
 
-section#pricing div {
+#pricing div {
   height: 667px;
   width: 360px;
 }
