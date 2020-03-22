@@ -2,7 +2,7 @@ body {
     padding-top: 90px;
 }
 
-header {
+.site-header {
     background: #929ECC;
     color: #fff;
     position: fixed;
@@ -11,28 +11,34 @@ header {
     top: 0;
 }
 
-header .wrapper {
+.site-header-wrapper {
     max-width: 1170px;
     margin: 0 auto;
     padding: 16px 32px;
 }
 
-header nav {
+.site-title{
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+}
+
+.site-header nav {
     float: right;
 }
 
-header ul {
+.site-header ul {
     list-style-type: none;
     margin: 0 -32px;
     padding: 0;
 }
 
-header li {
+.site-header li {
     display: inline-block;
     padding: 0 32px;
 }
 
-header a {
+.site-header a {
     text-decoration: none;
     color: inherit;
 }
@@ -47,55 +53,56 @@ header a {
     margin-bottom: 35px;
 }
 
-.blog-post h2 {
+.blog-post-category {
     color: #4A90E2;
     font-size: 14px;
     line-height: 16px;
     margin: 0 0 11px;
     font-weight: 500;
+    display: block;
 }
 
-.blog-post h3 {
+.blog-post-title {
     color: #171717;
     font-size: 30px;
     line-height: 35px;
     margin: 0 0 11px;
 }
 
-.blog-post .tags {
+.blog-post-metadata {
     list-style-type: none;
     padding: 0;
     margin: 0 0 28px;
 }
 
-.blog-post .tags b {
+.blog-post-metadata b {
     color: #171717;
 }
 
-.blog-post .tags li {
+.blog-post-metadata li {
     display: inline-block;
     font-size: 14px;
     line-height: 16px;
 }
 
-.blog-post .tags li::after {
+.blog-post-metadata li::after {
     content: '\25C6';
     font-size: 8px;
     padding: 0 12px;
 }
 
-.blog-post .tags li:last-child::after {
+.blog-post-metadata li:last-child::after {
     content: '';
 }
 
-.blog-post p {
+.blog-post-summary {
     line-height: 1.5;
     margin-top: 32px;
     margin-bottom: 24px;
     max-width: 700px;
 }
 
-.blog-post p+a {
+.blog-post-link {
     display: inline-block;
     text-decoration: none;
     font-weight: 500;

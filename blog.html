@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="/css/blog.css" />
   </head>
   <body>
-    <header>
-      <div class="wrapper">
-        <b>Codeable News</b>
+    <header class="site-header">
+      <div class="site-header-wrapper">
+        <h1 class="site-title">Codeable News</h1>
         <nav>
           <ul>
             <li><a href="/">Home</a></li>
@@ -24,40 +24,44 @@
     </header>
     <main class="container">
       <article class="blog-post">
-        <h2>COMPUTER SCIENCE</h2>
-        <h3>How to increase the efficiency of your algorithms</h3>
-        <ul class="tags">
-          <li>By <b>Marvin Carrasco</b></li>
-          <li>March 30, 2020</li>
-          <li>6 comments</li>
-        </ul>
-        <img src="/assets/blog-algorithms.png" alt="" />
-        <p>
+        <header>
+          <span class="blog-post-category">COMPUTER SCIENCE</span>
+          <h1 class="blog-post-title">How to increase the efficiency of your algorithms</h1>
+          <ul class="blog-post-metadata">
+            <li>By <b>Marvin Carrasco</b></li>
+            <li>March 30, 2020</li>
+            <li>6 comments</li>
+          </ul>
+        </header>
+        <img src="/assets/blog-algorithms.png" alt="Algos" />
+        <p class="blog-post-summary">
           In computer science, algorithmic efficiency is a property of an
           algorithm which relates to the number of computational resources used
           by the algorithm. An algorithm must be analyzed to determine its
           resource usage, and the efficiency of an algorithm can be measured
           based ...
         </p>
-        <a href="#">Read more</a>
+        <a class="blog-post-link" href="#">Read more</a>
       </article>
       <article class="blog-post">
-        <h2>WEB DEVELOPMENT</h2>
-        <h3>HTML5 + CSS3 + Javascript = Web applications</h3>
-        <ul class="tags">
-          <li>By <b>Adonai Luque</b></li>
-          <li>March 28, 2020</li>
-          <li>10 comments</li>
-        </ul>
-        <img src="/assets/blog-web-app.png" alt="" />
-        <p>
+        <header>
+          <span class="blog-post-category">WEB DEVELOPMENT</span>
+          <h1 class="blog-post-title">HTML5 + CSS3 + Javascript = Web applications</h1>
+          <ul class="blog-post-metadata">
+            <li>By <b>Adonai Luque</b></li>
+            <li>March 28, 2020</li>
+            <li>10 comments</li>
+          </ul>
+        </header>
+        <img src="/assets/blog-web-app.png" alt="HTML5 + CSS3 + Javascript" />
+        <p class="blog-post-summary">
           In earlier computing models like client–server, the processing load
           for the application was shared between code on the server and code
           installed on each client locally. In other words, an application had
           its own pre-compiled client program which served as its user interface
           and had to be...
         </p>
-        <a href="#">Read more</a>
+        <a class="blog-post-link" href="#">Read more</a>
       </article>
     </main>
   </body>
