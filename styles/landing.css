@@ -1,150 +1,145 @@
 * {
-    font-size: Arial;
-    box-sizing: border-box;
-    font-family: 'Roboto', 'Arial';
-    padding: 0;
-    margin: 0;
+  font-size: Arial;
+  box-sizing: border-box;
+  font-family: "Roboto", "Arial";
+  padding: 0;
+  margin: 0;
 }
 
 .btn {
-    border: none;
-    outline: none;
-    padding: 3%;
-    color: #fff;
+  border: none;
+  outline: none;
+  padding: 3%;
+  color: #fff;
 }
 
 #principal {
-    width: 1200px;
-    margin: 10% 5% 10% 15%
+  width: 1200px;
+  margin: 10% 5% 10% 15%;
 }
 
 .info {
-    float: left;
-    width: 40%;
+  float: left;
+  width: 40%;
 }
 
-.info h1{
-    color: #091133;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 91px;
+.info h1 {
+  color: #091133;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 91px;
 }
 
 .info p {
-    margin: 10% 0% 10% 0%;
-    color: #6F7CB2;
-    font-size: 24px;
-    line-height: 45px;
+  margin: 10% 0% 10% 0%;
+  color: #6f7cb2;
+  font-size: 24px;
+  line-height: 45px;
 }
 
 .landing-img {
-    width: 655.91px;
-    height: 736.94px;
+  width: 655.91px;
+  height: 736.94px;
 }
 .bot-buttons {
-    width: 100%;
-    font-size: 18px;
+  width: 100%;
+  font-size: 18px;
 }
 
 .bot-buttons button {
-    margin: 2%;
+  margin: 2%;
 }
 
-.bot-buttons button:first-child{
-    padding: .7vh 4.5vh;
-    background: #37447E;
+.bot-buttons a:first-child button {
+  padding: 0.7vh 4.5vh;
+  background: #37447e;
 }
 
-.bot-buttons button:last-child{
-    padding: .7vh 2vh;
-    color: #000;
-    background: #E9EBEC;;
+.bot-buttons a:last-child button {
+  padding: 0.7vh 2vh;
+  color: #000;
+  background: #e9ebec;
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #pricing-section {
-    width: 100%;
-    text-align: center;
-    font-family: 'Overpass', 'Arial';
-    clear: left;
+  width: 100%;
+  text-align: center;
+  font-family: "Overpass", "Arial";
+  clear: left;
 }
 
-.title {
-    margin-bottom: 41px;
+.pricing-title {
+  margin-bottom: 41px;
 }
 
-.title h2{
-    font-weight: bold;
-    font-size: 46px;
-    margin-bottom: 0;
+.pricing-title h2 {
+  font-weight: bold;
+  font-size: 46px;
+  margin-bottom: 0;
 }
-.title p {
-    color: #666;
-    font-size: 17px;
-    line-height: 31px;
+.pricing-title p {
+  color: #666;
+  font-size: 17px;
+  line-height: 31px;
 }
 
 .plan {
-    background: #EBEBF0;
-    border: 1px solid #C9CCD4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-    width: 373px;
-    margin: 1.5vh 1.5vh 5vh 1vh;
-    padding: 3vh;
+  background: #ebebf0;
+  border: 1px solid #c9ccd4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: 373px;
+  margin: 1.5vh 1.5vh 5vh 1vh;
+  padding: 3vh;
 }
 
 .plan:first-child {
-    float: left;
-    margin-left: 20%;
+  float: left;
+  margin-left: 20%;
 }
 .plan:last-child {
-    float: right;
-    margin-right: 20%;
+  float: right;
+  margin-right: 20%;
 }
 
-
-
-.plan h3{
-    text-align: center;
-    letter-spacing: -1px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    margin-bottom: 0;
+.plan h3 {
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 0;
 }
 
 .plan p {
-    font-size: 17px;
-    line-height: 31px;
-    color: #666;
-    margin-bottom: 15%;
+  font-size: 17px;
+  line-height: 31px;
+  color: #666;
+  margin-bottom: 15%;
 }
 
 .plan ul {
-    margin: 9%;
+  margin: 9%;
 }
 
 .plan li {
-    text-align: left;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 1vh;
+  text-align: left;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 1vh;
 }
 
 .princing-btn {
-    border-radius: 6px;
-    background: #929ECC;
-    border: 1px solid #000000;
-    padding: 5% 35%;
-    box-shadow: 1px 2px 3px 0   px rgba(0, 0, 0, 0.25);
-    margin-top: 40%;
+  border-radius: 6px;
+  background: #929ecc;
+  border: 1px solid #000000;
+  padding: 5% 35%;
+  box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 40%;
 }
-
-
-
