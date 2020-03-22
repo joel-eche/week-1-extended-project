@@ -46,19 +46,19 @@ header nav ul li a {
   font-size: 14px;
 }
 
-article {
+.post {
   width: 770px;
-  height: 742;
+  height: 742px;
   margin: 0 auto;
   margin-top: 35px;
-  font-family: Roboto;
 }
 
-.top p {
+.post-topic,
+.post-title {
   margin-bottom: 11px;
 }
 
-.top > p:nth-child(1) {
+.post-topic {
   width: 135px;
   height: 16px;
   font-size: 14px;
@@ -66,7 +66,7 @@ article {
   color: #4a90e2;
 }
 
-.top > p:nth-child(2) {
+.post-title {
   width: 662px;
   height: 35px;
   font-style: bold;
@@ -75,7 +75,7 @@ article {
   color: #171717;
 }
 
-article li {
+.post-metadata li {
   display: inline;
   font-size: 14px;
   line-height: 16px;
@@ -84,31 +84,29 @@ article li {
   margin-right: 10px;
 }
 
-.top li:nth-child(1) span {
+.post-metadata-author span {
   font-weight: 400;
 }
 
-.top li:nth-child(2) span {
+.post-metada-date span {
   padding-left: 0px;
 }
 
-,
-.top li:nth-child(3) span {
+.post-metadata-numcomments span {
   padding-left: 10px;
 }
 
-article li:nth-child(2):before,
-article li:nth-child(3):before {
+.metadata-style::before {
   content: "\25C6";
   margin-right: 10px;
 }
 
-article img {
+.post-image {
   margin-top: 28px;
   margin-bottom: 33px;
 }
 
-.text p:nth-child(1) {
+.post-main-content {
   width: 700px;
   height: 72px;
   font-style: normal;
@@ -119,15 +117,10 @@ article img {
   margin-bottom: 25px;
 }
 
-.text button {
-  width: 160px;
-  height: 50px;
-  vertical-align: middle;
-  text-align: center;
-  font-style: normal;
+.post-extension {
   font-size: 16px;
-  line-height: 15px;
   color: #666666;
   border: 1px solid #e5e5e5;
-  background: none;
+  padding: 18px 40px 17px 42px;
+  text-decoration: none;
 }

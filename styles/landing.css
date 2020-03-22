@@ -11,6 +11,7 @@
   outline: none;
   padding: 3%;
   color: #fff;
+  text-decoration: none;
 }
 
 #principal {
@@ -47,16 +48,16 @@
   font-size: 18px;
 }
 
-.bot-buttons button {
+.bot-buttons a {
   margin: 2%;
 }
 
-.bot-buttons a:first-child button {
+.bot-buttons a:first-child {
   padding: 0.7vh 4.5vh;
   background: #37447e;
 }
 
-.bot-buttons a:last-child button {
+.bot-buttons a:last-child {
   padding: 0.7vh 2vh;
   color: #000;
   background: #e9ebec;
