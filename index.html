@@ -8,53 +8,65 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles-p.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles-p.css" />
+    <title>Codeable Blog</title>
   </head>
   <body>
-    <div class="main">
-    <nav>
-      <div class="menu-bar">
-        <div>Codeable News</div>
+    <header class="menu-bar">
+      <div>Codeable News</div>
+      <nav>
         <ul>
           <li><a href="#">About</a></li>
-          <li><a href="landing.html">Pricing</a></li>
+          <li><a href="landing.html#pricing">Pricing</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
+    <main class="blog">
+      <article class="blog-article">
+        <h2>Web Development</h2>
+        <h1>How to increase the efficiency of your algorithms</h1>
+        <h3>
+          <span>By</span> Adonai Luque
+          <div>•</div>
+          <span>March 28, 2000</span>
+          <div>•</div>
+          <span>10 comments</span>
+        </h3>
+        <img
+          class="firstImage"
+          src="assets/blog-algorithms.png"
+          alt="Web algorithms"
+        />
+        <p>
+          In computer science, algorithmic efficiency is a property of an
+          algorithm which relates to the number of computational resources used
+          by the algorithm. An algorithm must be analyzed to determine its
+          resource usage, and the efficiency of an algorithm can be measured
+          based ...
+        </p>
+        <button class="button1">Read more</button>
+      </article>
+      <article class="blog-article">
+        <h2>Web Development</h2>
+        <h1>HTML5 + CSS3 + JavaScript = Web applications</h1>
+        <h3>
+          <span>By</span> Adonai Luque
+          <div>•</div>
+          <span>March 28, 2000</span>
+          <div>•</div>
+          <span>10 comments</span>
+        </h3>
+        <img src="assets/blog-web-app.png" alt="Web applications" />
+        <p>
+          In earlier computing models like client-server, the processing load
+          for the application was shared between code on the server and code
+          installed on each client locally. In other words, an application had
+          its own pre-compiled client program which served as its user interface
+          and had to be..
+        </p>
+        <button class="button2">Read more</button>
+      </article>
+    </main>
   </body>
-  <!-- endPoint -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  </head>
-  <body>
-      <div class="blog">
-          <div class="article">
-              <article class="blog-article">
-                <h2>Web Development</h2>
-                <h1>How to increase the efficiency of your algorithms</h1>
-                <h3><span>By</span> Adonai Luque <div>•</div><span>March 28, 2000</span><div>•</div><span>10 comments</span></h3>
-                <img class="firstImage" src="assets/blog-algorithms.png" alt="Web algorithms">
-                <p>In computer science, algorithmic efficiency is a property of an algorithm which relates to the number of computational resources used by the algorithm. An algorithm must be analyzed to determine its resource usage, and the efficiency of an algorithm can be measured based ...</p>
-                <button class="button1">Read more</button>
-              </article>
-          </div>
-          <div class="article article-2">
-              <article class="article2 blog-article">
-                <h2>Web Development</h2>
-                <h1>HTML5 + CSS3 + JavaScript = Web applications</h1>
-                <h3><span>By</span> Adonai Luque <div>•</div><span>March 28, 2000</span><div>•</div><span>10 comments</span></h3>
-                <img src="assets/blog-web-app.png" alt="Web applications">
-                <p>In earlier computing models like client-server, the processing load for the application was shared between code on the server and code installed on each client locally. In other words, an application had its own pre-compiled client program which served as its user interface and had to be..</p>
-                <button class="button2">Read more</button>
-              </article>
-          </div>
-      </div>
-  </body>
-</div>
 </html>
