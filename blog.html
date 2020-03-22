@@ -12,43 +12,66 @@
     <title>Codeable Blog</title>
   </head>
   <body>
-      <nav class="nav-wrapper">
-        <h1 class="site-title">Codeable News</h1>
-        <ul>
-          <li><a href="#" class="nav-link">About</a></li>
-          <li><a href="index.html" class="nav-link">Pricing</a></li>
-          <li><a href="#" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-      <main>
-        <article>
-          <h3>Computer Science</h2>
-          <h2>How to increase the efficiency of your algorithms</h2>
-          <h3>By <span>Marvin Carrasco</span> ◆ March 30, 2020 ◆ 6 comments</h3>
-          <img src="assets/blog-algorithms.png" alt="blog-image" />
-          <p>
-            In computer science, algorithmic efficiency is a property of an
-            algorithm which relates to the number of computational resources
-            used by the algorithm. An algorithm must be analyzed to determine
-            its resource usage, and the efficiency of an algorithm can be
-            measured based ...
-          </p>
-          <a href="#" class="btn">Read more</a>
-        </article>
-        <article>
-          <h2>Web Development</h2>
-          <h2>HTML5 + CSS3 + Javascript = Web applications</h2>
-          <h3>By <span>Adonai Luque</span> ◆ March 28, 2020 ◆ 10 comments</h3>
-          <img src="assets/blog-web-app.png" alt="blog-image" />
-          <p>
-            In earlier computing models like client–server, the processing load
-            for the application was shared between code on the server and code
-            installed on each client locally. In other words, an application had
-            its own pre-compiled client program which served as its user
-            interface and had to be...
-          </p>
-          <a href="#" class="btn">Read more</a>
-        </article>
-      </main>
+    <nav class="nav-wrapper">
+      <h1 class="site-title">Codeable News</h1>
+      <ul>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="post-wrapper">
+      <article class="post">
+        <header>
+          <span class="post-category">Computer Science</span>
+          <h2 class="post-title">
+            How to increase the efficiency of your algorithms
+          </h2>
+          <span class="post-metadata"
+            >By <span class="post-author">Marvin Carrasco</span> ◆ March 30,
+            2020 ◆ 6 comments</span
+          >
+        </header>
+        <img
+          class="post-img"
+          src="assets/blog-algorithms.png"
+          alt="algorithms image"
+        />
+        <p class="post-text">
+          In computer science, algorithmic efficiency is a property of an
+          algorithm which relates to the number of computational resources used
+          by the algorithm. An algorithm must be analyzed to determine its
+          resource usage, and the efficiency of an algorithm can be measured
+          based ...
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </article>
+      <article class="post">
+        <header>
+          <span class="post-category">Web Development</span>
+          <h2 class="post-title">
+            HTML5 + CSS3 + Javascript = Web applications
+          </h2>
+          <span class="post-metadata"
+            >By <span class="post-author">Adonai Luque</span> ◆ March 28, 2020 ◆
+            10 comments</span
+          >
+        </header>
+
+        <img
+          class="post-img"
+          src="assets/blog-web-app.png"
+          alt="web technologies image"
+        />
+        <p class="post-text">
+          In earlier computing models like client–server, the processing load
+          for the application was shared between code on the server and code
+          installed on each client locally. In other words, an application had
+          its own pre-compiled client program which served as its user interface
+          and had to be...
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </article>
+    </main>
   </body>
 </html>

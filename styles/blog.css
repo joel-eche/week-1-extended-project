@@ -64,46 +64,47 @@ body {
   border: 1px solid #fff;
 }
 
-/*** Articles ***/
-main {
+/*** Posts ***/
+.post-wrapper {
   height: 1584px;
   position: relative;
   top: 56px;
 }
 
-article {
+.post {
   margin: 35px auto 53px;
   width: 770px;
 }
 
-article h2 {
+.post-category {
   color: #4a90e2;
   font-size: 14px;
   margin-bottom: 11px;
   text-transform: uppercase;
 }
 
-article h1 {
+.post-title {
   color: #171717;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 11px;
 }
 
-article h3 {
+.post-metadata {
   color: #666666;
   font-size: 14px;
 }
 
-h3 span {
+.post-author {
   color: #171717;
+  font-weight: bold;
 }
 
-article img {
+.post-img {
   margin: 28px auto 33px;
 }
 
-article p {
+.post-text {
   color: #666666;
   font-size: 16px;
   line-height: 24px;
