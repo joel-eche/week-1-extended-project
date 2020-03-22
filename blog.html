@@ -8,62 +8,88 @@
     <title>Codeable Blog</title>
   </head>
   <body>
-    <nav>
-      <div class="nav-left">Codeable News</div>
-      <div class="nav-right">
+    <header class="navbar">
+      <div class="navbar-left">
+        <a href="/blog.html">Codeable News</a>
+      </div>
+      <div class="navbar-right">
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="index.html">Pricing</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-    </nav>
+    </header>
     <main>
-      <section id="blog-item-1">
-        <p class="mini-title">COMPUTER SCIENCE</p>
-        <h3>How to increase the efficiency of your algorithms</h3>
-        <ul class="item-info">
-          <li>By <b>Marvin Carrasco</b></li>
-          <li><div class="dot"></div></li>
-          <li>March 30, 2020</li>
-          <li><div class="dot"></div></li>
-          <li>6 comments</li>
-        </ul>
-        <div class="item-img">
-          <img src="assets/blog-algorithms.png" />
+      <article id="blog-item-1" class="entry">
+        <header class="entry-header">
+          <a class="entry-main-tag" href="#">COMPUTER SCIENCE</a>
+          <h1 class="has-text-black">
+            How to increase the efficiency of your algorithms
+          </h1>
+          <ul class="entry-details">
+            <li>
+              By <span class="has-text-black is-bold">Marvin Carrasco</span>
+            </li>
+            <li>&#9830;</li>
+            <li>March 30, 2020</li>
+            <li>&#9830;</li>
+            <li>6 comments</li>
+          </ul>
+        </header>
+        <div class="entry-content">
+          <div class="entry-img">
+            <img src="assets/blog-algorithms.png" />
+          </div>
+          <p class="entry-excerpt">
+            In computer science, algorithmic efficiency is a property of an
+            algorithm which relates to the number of computational resources
+            used by the algorithm. An algorithm must be analyzed to determine
+            its resource usage, and the efficiency of an algorithm can be
+            measured based ...
+          </p>
+          <a
+            class="entry-more is-bold has-margin-top-20 has-margin-bottom-20"
+            href="#"
+            >Read more</a
+          >
         </div>
-        <p class="item-description">
-          In computer science, algorithmic efficiency is a property of an
-          algorithm which relates to the number of computational resources used
-          by the algorithm. An algorithm must be analyzed to determine its
-          resource usage, and the efficiency of an algorithm can be measured
-          based ...
-        </p>
-        <button class="item-btn">Read more</button>
-      </section>
+      </article>
 
-      <section id="blog-item-2">
-        <p class="mini-title">WEB DEVELOPMENT</p>
-        <h3>HTML5 + CSS3 + Javascript = Web applications</h3>
-        <ul class="item-info">
-          <li>By <b>Aldonai Luque</b></li>
-          <li><div class="dot"></div></li>
-          <li>March 28, 2020</li>
-          <li><div class="dot"></div></li>
-          <li>10 comments</li>
-        </ul>
-        <div class="item-img">
-          <img src="assets/blog-web-app.png" />
+      <article id="blog-item-2" class="entry">
+        <header class="entry-header">
+          <a class="entry-main-tag" href="#">WEB DEVELOPMENT</a>
+          <h1 class="has-text-black">
+            HTML5 + CSS3 + Javascript = Web applications
+          </h1>
+          <ul class="entry-details">
+            <li>
+              By <span class="has-text-black is-bold">Aldonai Luque</span>
+            </li>
+            <li>&#9830;</li>
+            <li>March 28, 2020</li>
+            <li>&#9830;</li>
+            <li>10 comments</li>
+          </ul>
+        </header>
+        <div class="entry-content">
+          <div class="entry-img">
+            <img src="assets/blog-web-app.png" />
+          </div>
+          <p class="entry-excerpt">
+            In earlier computing models like client–server, the processing load
+            for the application was shared between code on the server and code
+            installed on each client locally. In other words, an application had
+            its own pre-compiled client program which served as its user
+            interface and had to be...
+          </p>
+          <a
+            class="entry-more is-bold has-margin-top-20 has-margin-bottom-20"
+            href="#"
+            >Read more</a
+          >
         </div>
-        <p class="item-description">
-          In earlier computing models like client–server, the processing load
-          for the application was shared between code on the server and code
-          installed on each client locally. In other words, an application had
-          its own pre-compiled client program which served as its user interface
-          and had to be...
-        </p>
-        <button class="item-btn">Read more</button>
-      </section>
+      </article>
     </main>
   </body>
 </html>
