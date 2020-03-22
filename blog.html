@@ -17,62 +17,57 @@
       <nav>
         <ul>
           <li><a href="#">About</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html#pricing-section">Pricing</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div>
-        <article>
-          <div class="top">
-            <p>COMPUTER SCIENCE</p>
-            <p>How to increase the efficiency of your algorithms</p>
-            <ul>
-              <li>By <b>Marvin Carrasco</b></li>
-              <li><span>March 30, 2020</span></li>
-              <li>6 comments</li>
-            </ul>
-          </div>
-          <div>
-            <img src="./assets/blog-algorithms.png" />
-          </div>
-          <div class="text">
-            <p>
-              In computer science algorithmic efficiency is a property of of an
-              algorithm which relates to the number of computational resources
-              used by the algorithm. An algorithm must be analyzed to determine
-              its resource and the efficiency of an algorithm can be measured
-              based...
-            </p>
-            <button>Read more</button>
-          </div>
-        </article>
-        <article>
-          <div class="top">
-            <p>COMPUTER SCIENCE</p>
-            <p>HTML + CSS3 + Javascript = Web applications</p>
-            <ul>
-              <li>By <b>Adonai Luque</b></li>
-              <li>March 28, 2020</li>
-              <li>10 comments</li>
-            </ul>
-          </div>
-          <div>
-            <img src="./assets/blog-web-app.png" />
-          </div>
-          <div class="text">
-            <p>
-              In earlier computing models like client-server the processing load
-              the application was shared between code on the server and code
-              installed on each client locally. In otber words an application,
-              had its own pre-complided client program which served as its user
-              interface and had to be...
-            </p>
-            <button>Read more</button>
-          </div>
-        </article>
+      <div class="post">
+        <section class="post-header">
+          <h2 class="post-topic">COMPUTER SCIENCE</h2>
+          <h3 class="post-title">How to increase the efficiency of your algorithms</h3>
+          <ul class="post-metadata">
+            <li class="post-metadata-author">By <b>Marvin Carrasco</b></li>
+            <li class="post-metadata-date metadata-style"><span>March 30, 2020</span></li>
+            <li class="post-metadata-nummcomments metadata-style">6 comments</li class="post-metadata-nummcomments">
+          </ul>
+        </section>
+
+        <div class="post-main-content">
+          <img  class="post-image" src="./assets/blog-algorithms.png" alt="image1">
+          <p class="post-main-content">In computer science algorithmic efficiency is a property of
+              of an algorithm which relates to the number of computational
+              resources used by the algorithm. An algorithm must be analyzed
+              to determine its resource and the efficiency of an algorithm
+              can be measured based...
+          </p>
+          <a class="post-extension" href="index.html">Read more</a>
+        </div>
       </div>
-    </main>
-  </body>
+
+      <div class="post">
+        <section class="post-header">
+          <h1 class="post-topic">COMPUTER SCIENCE</h1>
+          <h2 class="post-title">HTML + CSS3 + Javascript = Web applications</h2>
+          <ul class="post-metadata">
+            <li class="post-metadata-author">By <b>Adonai Luque</b> </li>
+            <li class="post-metadata-date metadata-style">March 28, 2020</li>
+            <li class="post-metadata-nummcomments metadata-style">10 comments</li>
+          </ul>        
+        </section>
+
+        <div>
+          <img class="post-image" src="./assets/blog-web-app.png" alt="image2">
+          <p class="post-main-content">In earlier computing models like client-server the processing load
+                    the application was shared between code on the server and code installed
+                    on each client locally. In otber words an application, had its own
+                    pre-complided client program which served as its user interface and
+                    had to be...
+          </p>
+          <a class="post-extension" href="index.html">Read more</a>
+        </div>
+      </div>
+  </main>
+</body>
 </html>
