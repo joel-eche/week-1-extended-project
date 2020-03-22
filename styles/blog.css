@@ -14,7 +14,7 @@ main {
   padding-top: 100px;
 }
 
-header {
+.blog-header {
   background-color: #929ecc;
   color: #ffffff;
   width: 100%;
@@ -26,19 +26,25 @@ header {
   position: fixed;
 }
 
-header p {
+.blog-header h1 {
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
-  display: inline;
-  margin-right: 1100px;
+  display: inline-block;
+  margin-right: 20px;
+  width: 200px;
 }
 
 nav {
-  display: inline;
+  float: right;
 }
 
-nav span {
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
@@ -74,24 +80,19 @@ span {
   font-weight: bold;
 }
 
-.subtitle {
+.author-name {
   display: inline;
 }
 
-ul {
-  display: table;
-  list-style: none;
-}
-li::before {
+.post-metadata::before {
   content: "•";
   display: inline;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
-li {
-  display: table-cell;
-  margin-right: 20px;
+.post-metadata {
+  margin-right: 8px;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
@@ -104,13 +105,18 @@ li {
   margin-bottom: 34px;
 }
 
-.description {
+.post-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #666666;
   width: 700px;
   height: 72px;
+}
+
+.post-btn a {
+  text-decoration: none;
+  color: #666666;
 }
 
 .post-btn {
@@ -120,7 +126,6 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 15px;
-  color: #666666;
   padding: 15px 30px 15px 30px;
   background-color: white;
 }
