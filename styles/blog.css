@@ -80,13 +80,13 @@ article.blog-article p {
   color: #666666;
 }
 
-article.blog-article svg {
+article.blog-article img.diamond {
   vertical-align: middle;
   margin-left: 9px;
   margin-right: 9px;
 }
 
-article.blog-article img {
+article.blog-article img.article-image {
   display: block;
   width: 90%;
   text-align: center;
@@ -95,7 +95,7 @@ article.blog-article img {
   margin-right: auto;
 }
 
-article.blog-article img + p {
+article.blog-article p.resume-article {
   display: block;
   margin-top: 33px;
   font-weight: normal;
