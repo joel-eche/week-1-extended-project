@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" href="./styles/index.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Codeable Landing Page</title>
-</head>
-<body>
-<main>
-    <section>
-        <div class="top-left-side">
-            <h1 class="title-page">Build awesome stuff using Ruby, React and more</h1>
-            <h5 class="info-page">
-                Codeable is an intensive 6 month fullstack programming bootcamp
-                where you will learn the fundamentals of computer science, Ruby on
-                Rails and React.
-            </h5>
-            <a class="btn-link btn-link-darker" role="button" href="#">Pricing</a>
-            <a class="btn-link" role="button" href="blog.html">Visit our Blog</a>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="hero-left">
+          <h1 class="hero-title">
+            Build awesome stuff using Ruby, React and more
+          </h1>
+          <h2 class="hero-description">
+            Codeable is an intensive 6 month fullstack programming bootcamp
+            where you will learn the fundamentals of computer science, Ruby on
+            Rails and React.
+          </h2>
+          <div class="hero-actions">
+            <a
+              class="btn-link btn-link-alt"
+              role="button"
+              href="./index.html#pricing-id"
+              >Pricing</a
+            >
+            <a class="btn-link" role="button" href="blog.html"
+              >Visit our Blog</a
+            >
+          </div>
         </div>
-        <div class="top-right-side">
-            <img src="./assets/landing-img1.png"/>
+        <div class="hero-right">
+          <img class="hero-logo" src="./assets/landing-img1.png" />
         </div>
-    </section>
-    <!--<div class="separator"></div>-->
-    <br class="divide-sections">
-    <section class="bottom-side">
+      </section>
+      <br class="is-divider is-section-divider" />
+      <section id="pricing-id" class="pricing">
         <header>
-            <h2 class="bottom-header-title">Pricing Plans</h2>
-            <h4 class="bottom-header-sub-title"> Choose the plan, that best suits you</h4>
+          <h1 class="pricing-title">Pricing Plans</h1>
+          <p class="pricing-description">
+            Choose the plan, that best suits you
+          </p>
         </header>
-        <article>
-            <h2 class="article-tittle">
-                Up front <br/>
-                &#x00024; 6,000
+        <br class="is-divider is-article-divider" />
+        <article class="plan">
+          <header class="plan-header">
+            <h2 class="plan-title">
+              Up front <br />
+              &#x00024; 6,000
             </h2>
-            <h4 class="article-sub-tittle">One payment, no compromises</h4>
-            <ul class="article-list-items">
-                <li>Study on huge discount.</li>
-                <li>Get a job only if you like</li>
-                <li>Enjoy the same benefits</li>
-            </ul>
-            <a role="button" class="btn-link-info" href="#">Get Started</a>
+            <p class="plan-description">One payment, no compromises</p>
+          </header>
+          <ul class="plan-features">
+            <li>Study on huge discount.</li>
+            <li>Get a job only if you like</li>
+            <li>Enjoy the same benefits</li>
+          </ul>
+          <a role="button" class="btn-link-info" href="#">Get Started</a>
         </article>
-        <article>
-            <h2 class="article-tittle">
-                ISA <br/>
-                &#x00024; 9,000
+        <article class="plan">
+          <header class="plan-header">
+            <h2 class="plan-title">
+              ISA <br />
+              &#x00024; 9,000
             </h2>
-            <h4 class="article-sub-tittle">Your success is our success</h4>
-            <ul class="article-list-items">
-                <li>Just one enrollment payment</li>
-                <li>Pay when you get a job</li>
-                <li>Your salary should be greater than $750</li>
-            </ul>
-            <a role="button" class="btn-link-info" href="#">Get Started</a>
+            <p class="plan-description">Your success is our success</p>
+          </header>
+          <ul class="plan-features">
+            <li>Just one enrollment payment</li>
+            <li>Pay when you get a job</li>
+            <li>Your salary should be greater than $750</li>
+          </ul>
+          <a role="button" class="btn-link-info" href="#">Get Started</a>
         </article>
-    </section>
-    <br class="divide-sections">
-</main>
-</body>
+      </section>
+      <br class="is-divider is-section-divider" />
+    </main>
+  </body>
 </html>
