@@ -138,7 +138,7 @@
 
 /* navigation bar */
 .menu-bar {
-  margin: 0 135px;
+  padding: 0 135px;
   line-height: 56px;
 
   width: 100%;
@@ -163,7 +163,7 @@
 .menu-bar li {
   list-style: none;
   display: inline;
-  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .menu-bar a {
@@ -183,10 +183,7 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-.post {
-  padding-left: 336px;
-  padding-top: 35px;
-}
+
 .post-title {
   margin-top: 11px;
   font-weight: bold;
@@ -208,7 +205,6 @@
   font-weight: lighter;
 }
 .post img {
-  width: 730px;
   margin-top: 30px;
   margin-bottom: 30.25px;
 }
@@ -219,21 +215,23 @@
   font-size: 16px;
   line-height: 24px;
   color: #666666;
-  padding-top: 20px;
   padding-bottom: 20px;
-  margin-right: 404px;
   width: 700px;
 }
 .post-button {
   width: 160px;
   height: 50px;
-  margin-bottom: 35opx;
+  margin-bottom: 35px;
   border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 16px;
   color: #666666;
-  text-decoration: none;
-  padding: 18px 40px;
-  box-sizing: border-box;
 }
+.post-button:hover {
+  cursor: pointer;
+  border: 1px solid #666666;
+}
+
 .button1 {
   margin-bottom: 35px;
 }
